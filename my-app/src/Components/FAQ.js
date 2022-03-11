@@ -25,6 +25,7 @@ function FAQ(){
   return(
 <section className="FAQ">
   <h3>Frequently Asked Questions</h3>
+  <p className="fqDescrip">We have compiled some common questions we get about our business. If you don't see an answer to your particular question, feel free to contact us with your question! </p>
 
   <div className="fqList">
    <h4>Powder Coating Basics</h4>

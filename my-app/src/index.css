@@ -72,10 +72,8 @@ ul li.right {
   max-height: 50rem;
 }
 .prices{
-  background-color: #241e1f;
+  background-color: #F9E6B7;
   padding-bottom: 2rem;
-
-
 }
 
 .prices h3{
@@ -264,25 +262,36 @@ margin-bottom: 0rem;
 }
 .FAQ h3{
   margin-left: 1rem;
+  
 }
 
 .FAQ h4{
   margin-left: 1.5rem;
+  text-align: center;
 }
-.fqlist{
-  display: flex;
+.fqList{
+  display: block;
   overflow: hidden;
   margin: 0rem;
   padding: 0rem;
+  /* border: 5px solid #241e1f; */
+align-content: center;
 
+}
+
+.fqDescrip{
+  margin-left: 2rem;
+  max-width: 35rem;
+  text-align: center;
 }
 .fqList li{
   list-style-type: none;
   margin: 1rem;
+  text-align: center;
 }
-.fqlist a{
+/* .fqlist a{
   float: left;
-}
+} */
 .fQuestion:after{
     content: "\2193";
     margin-left: 1rem;
@@ -297,4 +306,29 @@ margin-bottom: 0rem;
   color: #fff;
   line-height: 1.5rem;
   font-weight: 500;
+  align-content: center;
+}
+
+.contact{
+
+}
+.contact h3{
+  margin-left: 2rem;
+}
+.contact p{
+  margin-left: 2.5rem;
+}
+.contactDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 70rem;
+  margin: 3rem;
+  padding: 2rem;
+}
+.contactDiv div{
+  background-color: #da6c1a;
+  border: 3px solid #241e1f;
+  border-radius: .5rem;
+  margin: 1rem;
+  text-align: center;
 }

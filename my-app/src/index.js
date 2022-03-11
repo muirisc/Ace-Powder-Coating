@@ -8,6 +8,7 @@ import Home from "./Components/Home";
 import Prices from "./Components/Prices";
 import NavBar from "./Components/NavBar";
 import FAQ from "./Components/FAQ";
+import Contact from "./Components/Contact";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,7 +20,7 @@ ReactDOM.render(
        <Route path="/faq" element={<FAQ/>} />
        <Route path="/gallery" element={<Prices/>} />
        <Route path="/colors" element={<Prices/>} />
-       <Route path="/contact" element={<Prices/>} />
+       <Route path="/contact" element={<Contact/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
