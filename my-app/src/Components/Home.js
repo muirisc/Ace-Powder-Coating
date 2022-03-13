@@ -25,8 +25,8 @@ function Home(){
   
       <button className="bannerButton">Click Me</button>
       </div>
-      <div className="finalBannerDiv"></div>
-      <div className="finalBannerDiv"></div>
+      {/* <div className="finalBannerDiv"></div>
+      <div className="finalBannerDiv"></div> */}
     </section>
 <section className="about">
   <div className="aboutDiv">

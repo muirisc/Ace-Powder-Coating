@@ -20,12 +20,17 @@ function FAQ(){
     setMoreInfo4(!moreInfo4)
   }
 
+  // const generalQuestionBank = [
+  //   question1={question: "What is Powder Coating?", answer:"The powder coating process uses a solvent free dry mix of plastic resins, pigments and fillers that melt and fuse together when heated. The solid particles of coating are electrostatically charged in a spray gun and carried by low velocity air to the surface of the piece to be coated. The electrostatic charge holds the powder particles in place while the part is cured in a 400-degree oven. The heat of the oven causes a chemical reaction to occur and the powder to cure, creating a highly durable finish." },
+  //   question2={question: "Is it Enviromentally Friendly?", answer:"Powder coating is an environmentally friendly process unlike solvent-based wet paint systems. With EPA regulations growing ever stricter, powder coating is fast becoming the technology of choice. Since the powder coating process does not use solvents in any way, VOC emission problems are eliminated. The solid particles of coating are electrostatically charged in a spray gun and carried by low velocity air to the surface of the piece to be coated. The electrostatic charge holds the powder particles in place while the part is cured in a 400-degree oven. The heat of the oven causes a chemical reaction to occur and the powder to cure, creating a highly durable finish."}
+  // ]
+
 
   
   return(
 <section className="FAQ">
   <h3>Frequently Asked Questions</h3>
-  <p className="fqDescrip">We have compiled some common questions we get about our business. If you don't see an answer to your particular question, feel free to contact us with your question! </p>
+  <p className="fqDescrip">We have compiled some common  questions we get about our business.  If you don't see an answer to your particular question, feel free to contact us with your question! </p>
 
   <div className="fqList">
    <h4>Powder Coating Basics</h4>
