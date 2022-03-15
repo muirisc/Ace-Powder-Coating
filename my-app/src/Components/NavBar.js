@@ -1,3 +1,4 @@
+
 function NavBar(){
 
 
@@ -11,6 +12,7 @@ function NavBar(){
         <li><a href="/gallery">Gallery</a></li>
         <li><a href="/color">Color Charts</a></li>
         <li className="right"><a href="/contact">Contact</a></li>
+        {/* <li><a><img src={Instagram}/></a></li> */}
       </ul>
     </nav>
   )

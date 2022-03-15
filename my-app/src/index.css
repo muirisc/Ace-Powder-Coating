@@ -15,6 +15,7 @@ code {
 
 nav{
 background-color: 241e1f;
+border-bottom: 2px solid #da6c1a;
 }
 
 nav ul {
@@ -80,7 +81,11 @@ nav ul li a:visited{
 nav ul li a:visited:hover{
   color: #F9E6B7;
 }
-
+nav ul li a img{
+width: 25%;
+position:relative;
+float: right;
+}
 ul li.right {
   float: right;
   align-content: right;
@@ -97,15 +102,15 @@ ul li.right {
   max-height: 50rem;
 }
 .prices{
-  background-color: #F9E6B7;
+  /* background-color: #F9E6B7; */
   padding-bottom: 2rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  /* margin-left: 15rem; */
+  /* margin-right: 15rem; */
 }
 
 .prices h3{
   font-family: 'Spartan', sans-serif;
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-size: 2rem;
   margin-top: 0rem;
   color: #da6c1a;
@@ -115,10 +120,10 @@ ul li.right {
 .priceTable{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #55494b;
-  margin: 4rem 10rem 4rem 4rem;
+  /* background-color: #55494b; */
+ margin: auto;
   padding: 2rem;
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
   border-radius: 2rem;
   font-family: 'Spartan', sans-serif;
   width: 900px;
@@ -127,12 +132,15 @@ ul li.right {
 
 .priceTable p{
   color: rgb(225, 223, 223);
+  font-size: 16px;
+  line-height: 20px;
+  
   /* border: .1rem solid white; */
 }
 .priceTable p:first-of-type{
   color: #fff;
-  margin-bottom: 4rem;
-  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-size: 25px;
   font-weight: 700;
   /* border: .1rem solid white; */
 }
@@ -230,16 +238,21 @@ align-content: center;
 
 }
 .about h3{
-  margin-top: 0rem;
+  margin: auto;
+  margin-bottom: 2rem;
   padding-top: 3rem;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   text-align: center;
   color:#da6c1a;
+  font-size: 31.25px;
+  line-height: 36px;
 }
 .about p{
   text-align: center;
   margin: auto;
   width: 55%;
+  font-size: 20px;
+  line-height: 25px;
 /* max-width: 50%; */
 }
 .about p:last-of-type{
@@ -257,14 +270,15 @@ margin-top: 2rem;
   color: #fff;
 }
 .services h3{
-  margin-top: 0rem;
-  font-size: 1.5rem;
+  margin-top: auto;
+  font-size: 31.25px;
+  line-height: 36px;
   font-family: 'Spartan', sans-serif;
   color:#da6c1a;
   text-align: center;
 }
 .services p{
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 .serviceCards{
   display:grid;
@@ -357,6 +371,11 @@ align-content: center;
     content: "\2193";
     margin-left: 1rem;
 }
+
+.fQuestionA:after{
+  content: "\2191";
+  margin-left: 1rem;
+}
 .fqAnswer{
   background-color:#241e1f;
   color:#da6c1a;
@@ -389,13 +408,16 @@ color: #F9E6B7;
 }
 .contact p{
   margin-left: 2.5rem;
+  margin-bottom: 0rem;
 }
 .contactDiv{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 70rem;
-  margin: 3rem;
+  /* margin: 3rem; */
   padding: 2rem;
+  margin: auto;
+  margin-top: 0rem;
 }
 
 .contactDiv h4{
@@ -412,6 +434,9 @@ color: #F9E6B7;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
+  align-content: center;
+  margin: auto;
+  margin-top: .8rem;
 }
 .contactDiv div{
   /* background-color: #da6c1a; */
@@ -438,4 +463,55 @@ color: #F9E6B7;
   margin: auto;
   display: block;
   /* text-align: center; */
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color:#da6c1a;
+  margin: auto;
+align-content: center;
+font-size: .75rem;
+border-top: 2px solid #da6c1a;
+
+
+}
+.footer .copyright{
+  margin-top: 1.4rem;
+  margin-left: 1rem;
+}
+
+.footer .footerI{
+
+}
+
+.footer li{
+  list-style: none;
+}
+
+.footer a{
+  color:#da6c1a;
+  text-decoration: none;
+}
+.footer img{
+background-size: cover;
+width: 7%;
+height: inherit;
+margin-top: .7rem;
+margin-left: .5rem;
+}
+
+
+.footer p img{
+  background-size: cover;
+  width: 7%;
+  height: inherit;
+margin: auto;
+  }
+
+
+.footer p a{
+text-decoration: none;
+color:#da6c1a;
+margin: auto;
 }

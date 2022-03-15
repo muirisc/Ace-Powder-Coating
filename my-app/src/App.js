@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <NavBar/>
-      <Prices/>
+      {/* <NavBar/>
+      <Prices/> */}
       {/* <img className="titleImage" src="https://powdercoatingnashville.com/wp-content/uploads/PTS-lores-6468.jpg"/> */}
       </header>
     </div>

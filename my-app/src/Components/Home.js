@@ -42,12 +42,12 @@ function Home(){
     <img src="https://i.imgur.com/S5GrahH.jpg" />
 <p> Inspection of the part prior to surface preparation</p>
 </div>
-<div>
+{/* <div>
 <img src="https://i.imgur.com/5iBRMwH.jpg"/>
 <p>In-house burn off oven to turn existing finish to ash or to "bake out" any oils or grease that may be inside the part.</p>
-</div>
+</div> */}
 <div>
-<img src="https://i.imgur.com/S5GrahH.jpg" />
+<img src="https://i.imgur.com/5iBRMwH.jpg" />
 <p>In-house sandblasting to remove existing finish or prepare surface to accept the powder coating.</p>
 </div>
 <div>
@@ -55,7 +55,7 @@ function Home(){
 <p> High temperature masking material is applied or silicon plugs are inserted to protect areas that should not be coated.</p>
 </div>
 <div>
-<img src="https://i.imgur.com/S5GrahH.jpg"/>
+<img src="https://i.imgur.com/5iBRMwH.jpg"/>
 <p>After the powder coating is applied and removed from the oven, the part is inspected for quality. If we're not happy with the finish, the process starts all over again.</p>
 </div>
 <div>

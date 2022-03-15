@@ -9,6 +9,7 @@ import Prices from "./Components/Prices";
 import NavBar from "./Components/NavBar";
 import FAQ from "./Components/FAQ";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
        <Route path="/colors" element={<Prices/>} />
        <Route path="/contact" element={<Contact/>} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
