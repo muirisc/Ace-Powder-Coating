@@ -10,6 +10,7 @@ import NavBar from "./Components/NavBar";
 import FAQ from "./Components/FAQ";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Gallery from "./Components/Gallery";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
        <Route path="/gallery" element={<Prices/>} />
        <Route path="/colors" element={<Prices/>} />
        <Route path="/contact" element={<Contact/>} />
+       <Route path="" element={<Gallery/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
