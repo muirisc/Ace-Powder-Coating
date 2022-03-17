@@ -81,20 +81,18 @@ nav ul li a:visited{
 nav ul li a:visited:hover{
   color: #F9E6B7;
 }
+
 nav ul li a img{
 width: 25%;
 position:relative;
 float: right;
 }
+
 ul li.right {
   float: right;
   align-content: right;
-  /* margin-right: 2rem; */
-}
 
-/* ul li.right:after{
-  content: "\e922";
-} */
+}
 
 .titleImage{
   width: 75%;
@@ -120,10 +118,8 @@ ul li.right {
 .priceTable{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* background-color: #55494b; */
- margin: auto;
+  margin: auto;
   padding: 2rem;
-  /* font-size: 1.3rem; */
   border-radius: 2rem;
   font-family: 'Spartan', sans-serif;
   width: 900px;
@@ -134,15 +130,13 @@ ul li.right {
   color: rgb(225, 223, 223);
   font-size: 16px;
   line-height: 20px;
-  
-  /* border: .1rem solid white; */
 }
+
 .priceTable p:first-of-type{
   color: #fff;
   margin-bottom: 1.5rem;
   font-size: 25px;
   font-weight: 700;
-  /* border: .1rem solid white; */
 }
 .priceTable .examples{
   max-width: 15rem;
@@ -153,15 +147,12 @@ ul li.right {
    margin: 0rem;
   padding-top: 1.5rem;
 }
-/* .pricetable div{
-  margin: 0rem;
-  padding: 0rem;
-} */
 
 .priceTable .standardPrices{
 margin: 0rem;
 padding: 0rem;
 }
+
 .priceTable .specials{
   margin: 0rem;
   padding: 0rem;
@@ -176,6 +167,7 @@ padding: 0rem;
   grid-template-columns: 1fr 1fr;
   background-repeat: no-repeat;
 }
+
 .banner div {
   height: 115px;
   width: inherit;
@@ -211,15 +203,9 @@ padding: 0rem;
   /* box-shadow: 2px 5px #5b4a4d; */
   font-size: 1.2rem;
   color: #241e1f;
-
-
-
 }
 
 .bannerButton:hover{
-  /* background-color: #F9E6B7; ;
-  border-color: #F9E6B7;
-  color: #241e1f */
   background-color: #241e1f;
   border-color: #241e1f;
   color: #da6c1a;
@@ -235,40 +221,35 @@ display: block;
 padding-bottom: 2rem;
 margin-bottom: 0rem; 
 align-content: center;
-
 }
+
 .about h3{
   margin: auto;
   margin-bottom: 2rem;
   padding-top: 3rem;
-  /* margin-left: 2rem; */
   text-align: center;
   color:#da6c1a;
   font-size: 31.25px;
   line-height: 36px;
 }
+
 .about p{
   text-align: center;
   margin: auto;
   width: 55%;
   font-size: 20px;
   line-height: 25px;
-/* max-width: 50%; */
 }
+
 .about p:last-of-type{
 margin-top: 2rem;
 }
 
-
-
-/* .about .services p{
-  max-width: 50rem;
-  margin-left: .5rem;
-} */
 .services{
   background-color: #241e1f;
   color: #fff;
 }
+
 .services h3{
   margin-top: auto;
   font-size: 31.25px;
@@ -277,9 +258,11 @@ margin-top: 2rem;
   color:#da6c1a;
   text-align: center;
 }
+
 .services p{
   font-size: 16px;
 }
+
 .serviceCards{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -287,6 +270,7 @@ margin-top: 2rem;
   margin-right: 2rem;
   overflow: hidden;
 }
+
 .serviceCards img{
   width: 40%;
   height: inherit;
@@ -298,22 +282,24 @@ margin-top: 2rem;
   margin-top: 1rem;
   margin-bottom: 0rem;
 }
+
 .serviceCards div{
   background-color: #fff;
   margin: 1rem;
   color: #241e1f;
   border-radius: .5rem;
 }
+
 .serviceCards p{
   max-width: 20rem;
   padding: 1rem;
   margin-top: 0rem;
 }
+
 .FAQ{
   font-family: "Spartan", sans-serif;
   background-color: #241e1f;
   color: #fff;
-
 }
 
 .FAQ p{
@@ -323,13 +309,13 @@ margin-top: 2rem;
 font-size: 16px;
 line-height: 26px;
 }
+
 .FAQ h3{
   margin-left: 1rem;
   padding-top: 1rem;
   color:#da6c1a;
   font-size: 32px;
   line-height: 40px;
-  
 }
 
 .FAQ h4{
@@ -339,15 +325,13 @@ line-height: 26px;
   font-size: 24px;
   line-height: 32px;
 }
+
 .fqList{
   display: block;
   overflow: hidden;
   margin: 0rem;
   padding: 0rem;
-  /* border: 5px solid #241e1f; */
-align-content: center;
-
-
+  align-content: center;
 }
 
 .fqDescrip{
@@ -355,6 +339,7 @@ align-content: center;
   max-width: 35rem;
   text-align: center;
 }
+
 .fqList li{
   list-style-type: none;
   margin: 1rem;
@@ -364,9 +349,7 @@ align-content: center;
   line-height: 24px;
   color:#F9E6B7;
 }
-/* .fqlist a{
-  float: left;
-} */
+
 .fQuestion:after{
     content: "\2193";
     margin-left: 1rem;
@@ -376,16 +359,14 @@ align-content: center;
   content: "\2191";
   margin-left: 1rem;
 }
+
 .fqAnswer{
   background-color:#241e1f;
   color:#da6c1a;
   max-width: 40rem;
   margin: auto;
-  /* border: 2px solid #241e1f ;
-  border-radius: .5rem; */
   padding: 1rem;
   color: #fff;
-  /* line-height: 1.5rem; */
   font-weight: 500;
   align-content: center;
 }
@@ -396,20 +377,22 @@ font-size: 16px;
 line-height: 26px;
 }
 
-
 .contact{
 color: #F9E6B7;
 }
+
 .contact h3{
   margin-left: 2rem;
   color:#da6c1a;
   font-size: 39.06px;
-  line-height: 
+  line-height: 42px;
 }
+
 .contact p{
   margin-left: 2.5rem;
   margin-bottom: 0rem;
 }
+
 .contactDiv{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -426,6 +409,7 @@ color: #F9E6B7;
   font-weight: 700;
   margin-bottom: 1rem;
 }
+
 .contactDiv img{
   margin: auto;
   align-content: center;
@@ -439,8 +423,6 @@ color: #F9E6B7;
   margin-top: .8rem;
 }
 .contactDiv div{
-  /* background-color: #da6c1a; */
-  /* border: 3px solid #F9E6B7; */
   border-radius: .5rem;
   margin: 1rem;
   text-align: center;
@@ -450,10 +432,9 @@ color: #F9E6B7;
   text-decoration: none;
   color: #F9E6B7;
 }
-.contactDiv div:last-of-type{
-/* background-color: white; */
-/* padding: 1.5rem; */
-}
+/* .contactDiv div:last-of-type{
+
+} */
 .contactHours{
   align-items: center;
   margin: auto;
@@ -462,7 +443,6 @@ color: #F9E6B7;
   align-content: center;
   margin: auto;
   display: block;
-  /* text-align: center; */
 }
 
 .footer{
@@ -481,9 +461,9 @@ border-top: 2px solid #da6c1a;
   margin-left: 1rem;
 }
 
-.footer .footerI{
+/* .footer .footerI{
 
-}
+} */
 
 .footer li{
   list-style: none;
@@ -501,14 +481,12 @@ margin-top: .7rem;
 margin-left: .5rem;
 }
 
-
 .footer p img{
   background-size: cover;
   width: 7%;
   height: inherit;
-margin: auto;
+  margin: auto;
   }
-
 
 .footer p a{
 text-decoration: none;
