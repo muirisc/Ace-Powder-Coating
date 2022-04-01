@@ -20,6 +20,7 @@ grid-template-columns: 1fr 1fr 1fr;
   height: 100vh;
   display: flex;
   justify-content: center;
+padding-top: 2rem;
   /* align-items: center; */
   /* margin-bottom: 20rem; */
   /* max-height: 20rem; */
@@ -44,6 +45,7 @@ border-radius: 5px;
   width: 2rem;
   top: 25%;
   left: 200px;
+  cursor: pointer;
 }
 .arrowRight{
   position: absolute;
@@ -51,6 +53,7 @@ border-radius: 5px;
   width: 2rem;
   right: 200px;
   top: 25%;
+  cursor: pointer;
   
 }
 
@@ -61,4 +64,13 @@ border-radius: 5px;
 .arrowRight:hover{
   background-color: #da6c1a;
   color:#F9E6B7
+}
+.slide{
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slideActive{
+  opacity: 1;
+  transition-duration: 1s;
 }

@@ -8,13 +8,13 @@ function Footer(){
     
     <div className="footer">
     <div>
-    {/* <p className="copyright">©2022 Ace Powder Coating</p>
+    <p className="copyright">©2022 Ace Powder Coating</p>
     </div>
     <div>
     <li className="footerI"></li> <a href="https://www.instagram.com/"><img src={Instagram}/> Check Out Our Instagram!</a>
     </div>
     <div className="imageCarousel">
-    <p><img src={Phone}/><a href="tel:+6132825368" >613-282-5368 (Test)</a></p> */}
+    <p><img src={Phone}/><a href="tel:+6132825368" >613-282-5368 (Test)</a></p>
     </div>
     </div>
   )
