@@ -12,19 +12,53 @@ text-align: center;
 .imageCarousel{
 /* flex-direction: row;
 justify-content: space-evenly; */
-display: grid;
+/* display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-  overflow: hidden;
+  overflow: hidden; */
   /* background-color: #fff; */
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* margin-bottom: 20rem; */
+  /* max-height: 20rem; */
 }
 
-.imageBox img{
-width: 600px;
-height: inherit;
-border-radius: 5px;
-/* float: left; */
-/* margin: 1rem; */
+
+.imageBox button{
+  position: absolute;
+  top: 25%;
+  right: 32px;
+  color: #fff;
 }
 .image{
-  width: 33.33%;
+height: 600px;
+width: inherit;
+border-radius: 5px;
+}
+
+.arrowLeft{
+  position: absolute;
+  height: 4rem;
+  width: 2rem;
+  top: 25%;
+  left: 200px;
+}
+.arrowRight{
+  position: absolute;
+  height: 4rem;
+  width: 2rem;
+  right: 200px;
+  top: 25%;
+  
+}
+
+.arrowLeft:hover{
+  background-color: #da6c1a;
+  color:#F9E6B7
+}
+.arrowRight:hover{
+  background-color: #da6c1a;
+  color:#F9E6B7
 }

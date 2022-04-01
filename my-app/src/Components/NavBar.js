@@ -7,7 +7,6 @@ function NavBar(){
     <nav>
       <ul>
         <li><a href="/">Home</a></li>
-        {/* <li><a >About</a></li> */}
         <li><a href="/prices">Prices</a></li>
         <li><a href="/faq">FAQ</a></li>
         <li><a href="/gallery">Gallery</a></li>
