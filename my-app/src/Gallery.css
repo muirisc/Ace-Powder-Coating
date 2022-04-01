@@ -8,16 +8,23 @@
 color:#F9E6B7;
 text-align: center;
 }
+
 .imageCarousel{
-flex-direction: space-evenly;
-  grid-template-columns: 1fr 1fr 1fr;
+/* flex-direction: row;
+justify-content: space-evenly; */
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
   overflow: hidden;
+  /* background-color: #fff; */
 }
 
 .imageBox img{
-max-height: 750px;
-max-width: 300px;
+width: 600px;
+height: inherit;
 border-radius: 5px;
 /* float: left; */
 /* margin: 1rem; */
+}
+.image{
+  width: 33.33%;
 }
