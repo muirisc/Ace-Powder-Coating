@@ -1,0 +1,23 @@
+.gallery h3{
+  font-size: 31.25px;
+  color:#da6c1a;
+  text-align: center;
+}
+
+.galleryIntro p{
+color:#F9E6B7;
+text-align: center;
+}
+.imageCarousel{
+flex-direction: space-evenly;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+}
+
+.imageBox img{
+max-height: 750px;
+max-width: 300px;
+border-radius: 5px;
+/* float: left; */
+/* margin: 1rem; */
+}

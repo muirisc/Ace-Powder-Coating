@@ -23,7 +23,7 @@ function Home(){
       </div>
       <div>
   
-      <button className="bannerButton">Click Me</button>
+      <a href="/contact"><button className="bannerButton">Contact Us Now!</button></a>
       </div>
       {/* <div className="finalBannerDiv"></div>
       <div className="finalBannerDiv"></div> */}

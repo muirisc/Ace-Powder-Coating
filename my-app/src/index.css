@@ -13,86 +13,7 @@ code {
     monospace;
 }
 
-nav{
-background-color: 241e1f;
-border-bottom: 2px solid #da6c1a;
-}
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  background-color: #241e1f;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 3rem;
-}
-
-nav ul li {
-  /* margin: 1rem 2rem 1rem 2rem; */
-  padding: 1rem;
-  /* border: .1rem solid #fff; */
-  float: left;
-  color: #da6c1a;
-  border: 1rem  white;
-  /* border-right: .1rem solid white; */
-  text-align: center;
-  padding-top: 1rem;
-  /* margin-left: 1rem;
-  margin-right: 1rem; */
-
-}
-
-nav ul li:hover{
-  /* background-color:#F9E6B7; */
-  /* text-decoration: underline; */
-  cursor: pointer;
-}
-
-nav ul li a:hover{
-color: #F9E6B7;
-}
-
-nav ul li a{
-  line-height: 14px;
-  font-size: 1rem;
-  text-decoration: none;
-}
-
-nav ul li a::after{
-  content: '';
-  width: 0%;
-  height: 2px;
-  background: #da6c1a;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-
-nav ul li a:hover::after{
-width: 100%;
-}
-
-nav ul li a:visited{
-  color: #da6c1a;
-  text-decoration: none;
-}
-
-nav ul li a:visited:hover{
-  color: #F9E6B7;
-}
-
-nav ul li a img{
-width: 25%;
-position:relative;
-float: right;
-}
-
-ul li.right {
-  float: right;
-  align-content: right;
-
-}
 
 .titleImage{
   width: 75%;
@@ -363,9 +284,9 @@ line-height: 26px;
 .fqAnswer{
   background-color:#241e1f;
   color:#da6c1a;
-  max-width: 40rem;
+  max-width: 60rem;
   margin: auto;
-  padding: 1rem;
+  padding: 1.4rem;
   color: #fff;
   font-weight: 500;
   align-content: center;
@@ -451,8 +372,9 @@ color: #F9E6B7;
   color:#da6c1a;
   margin: auto;
 align-content: center;
-font-size: .75rem;
+font-size: 1.2rem;
 border-top: 2px solid #da6c1a;
+max-height: 4rem;
 
 
 }
@@ -492,4 +414,5 @@ margin-left: .5rem;
 text-decoration: none;
 color:#da6c1a;
 margin: auto;
+padding: 1rem .5rem 5rem .5rem;
 }
