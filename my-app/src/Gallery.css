@@ -17,7 +17,7 @@ grid-template-columns: 1fr 1fr 1fr;
   overflow: hidden; */
   /* background-color: #fff; */
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
 padding-top: 2rem;
@@ -27,12 +27,12 @@ padding-top: 2rem;
 }
 
 
-.imageBox button{
+/* .imageBox button{
   position: absolute;
-  top: 25%;
+  top: 30%;
   right: 32px;
   color: #fff;
-}
+} */
 .image{
 height: 600px;
 width: inherit;
@@ -43,7 +43,7 @@ border-radius: 5px;
   position: absolute;
   height: 4rem;
   width: 2rem;
-  top: 25%;
+  top: 30%;
   left: 200px;
   cursor: pointer;
 }
@@ -52,7 +52,7 @@ border-radius: 5px;
   height: 4rem;
   width: 2rem;
   right: 200px;
-  top: 25%;
+  top: 30%;
   cursor: pointer;
   
 }

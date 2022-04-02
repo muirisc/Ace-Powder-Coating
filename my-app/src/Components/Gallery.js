@@ -8,15 +8,21 @@ const Gallery = () => {
   const imageBank = [{image:"https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_1280.jpg"},{image:"https://cdn.pixabay.com/photo/2018/04/07/16/30/auto-3298890_1280.jpg"},
 {image:"https://cdn.pixabay.com/photo/2017/12/28/23/41/car-3046424_960_720.jpg"},{image:"https://cdn.pixabay.com/photo/2017/02/27/08/27/car-2102367_960_720.jpg"}]
 const length = imageBank.length
+
 const nextSlide = () => {
   setCurrentImages(currentImages === length -1 ? 0 : currentImages + 1)
+  
 }
 
 const previousSlide = () => {
   setCurrentImages(currentImages === 0 ? length -1 : currentImages - 1)
 }
-
-
+const nextArrowSlide = (e) => {
+  if(e.keycode === '39'){
+    setCurrentImages(currentImages === length -1 ? 0 : currentImages + 1)
+}
+}
+// onKeyDown={nextArrowSlide(e)}
 
 
 if(!Array.isArray(imageBank) || imageBank.length <= 0) {
@@ -36,10 +42,11 @@ if(!Array.isArray(imageBank) || imageBank.length <= 0) {
       {index === currentImages && ( <img src={image.image} alt='powder coated item' className='image' />)}
      </div>
     )})}
-    <button onClick={nextSlide} className="arrowRight" >&#8250;</button>
+    <button onClick={nextSlide}   className="arrowRight" >&#8250;</button>
     </div>
     </div>
     )
     }
+  
 
 export default Gallery;
