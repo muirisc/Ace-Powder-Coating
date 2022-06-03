@@ -11,6 +11,7 @@ import FAQ from "./Components/FAQ";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Gallery from "./Components/Gallery";
+import Colors from "./Components/Colors";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,7 +22,7 @@ ReactDOM.render(
        <Route path="/prices" element={<Prices/>} />
        <Route path="/faq" element={<FAQ/>} />
        <Route path="/gallery" element={<Gallery/>} />
-       <Route path="/colors" element={<Prices/>} />
+       <Route path="/colors" element={<Colors/>} />
        <Route path="/contact" element={<Contact/>} />
        <Route path="" element={<Gallery/>} />
       </Routes>

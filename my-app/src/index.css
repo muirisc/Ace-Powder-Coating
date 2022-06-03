@@ -191,6 +191,12 @@ margin-top: 2rem;
   margin-right: 2rem;
   overflow: hidden;
 }
+/* Media Query for Title Page */
+@media only screen and (max-width: 54rem ){
+  .serviceCards{
+grid-template-columns: 1fr 1fr;
+  }
+}
 
 .serviceCards img{
   width: 40%;
@@ -365,16 +371,68 @@ color: #F9E6B7;
   margin: auto;
   display: block;
 }
+.colorSection{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.2rem;
+  /* margin-bottom: 2rem; */
+  margin: 2rem 2rem 4rem 2rem;
+}
+.colorSection div{
+  border: 1px solid #da6c1a;
+  grid-column: span 2;
+}
+
+.colorSection div:hover{
+  background-color: #da6c1a;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.colorSection div h3{
+  text-align: center;
+}
+.colorSection div a{
+  text-decoration: none;
+}
+
+.colorSection div:hover h3{
+  color: #fff;
+  
+}
+
+.Logo{
+  justify-content: center;
+  margin: auto;
+}
+.Logo img{
+  justify-content: center;
+  margin: auto;
+}
+.colorSection .finalColors1{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.colorSection .finalColors2{
+grid-column-start: 4;
+grid-column-end: 6;
+grid-row-start: 4;
+grid-row-end: 5;
+}
 
 .footer{
   /* position: absolute; */
-  /* bottom: 0; */ 
+  bottom: 0; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color:#da6c1a;
   margin: auto;
 align-content: center;
-font-size: 1.2rem;
+font-size: 16px;
 border-top: 2px solid #da6c1a;
 height: 1rem;
 }

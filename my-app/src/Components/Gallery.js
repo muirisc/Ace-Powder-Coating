@@ -17,11 +17,11 @@ const nextSlide = () => {
 const previousSlide = () => {
   setCurrentImages(currentImages === 0 ? length -1 : currentImages - 1)
 }
-const nextArrowSlide = (e) => {
-  if(e.keycode === '39'){
-    setCurrentImages(currentImages === length -1 ? 0 : currentImages + 1)
-}
-}
+// const nextArrowSlide = (e) => {
+//   if(e.keycode === '39'){
+//     setCurrentImages(currentImages === length -1 ? 0 : currentImages + 1)
+// }
+// }
 // onKeyDown={nextArrowSlide(e)}
 
 

@@ -1,0 +1,23 @@
+.colors h3{
+font-size: 31.25px;
+color:#da6c1a;
+margin-left: 2rem;
+}
+.colors h4{
+  font-size: 24px;
+  color:#da6c1a;
+
+}
+
+.colorsDescrip{
+color:#da6c1a;
+margin-left: 3.5rem;
+}
+.colorsOptions{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Tiger{
+  width: 250px;
+  height: 250px;  
+}
