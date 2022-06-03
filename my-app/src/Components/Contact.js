@@ -13,13 +13,15 @@ function Contact(){
     <div className="contactDiv">
       <div>
         <h4>Phone</h4>
+        <a href="tel:+6132825368" >
         <img src={Phone}/>
-        <p><a href="tel:+6132825368" >613-282-5368 (Test)</a></p>
+        <p>613-282-5368</p></a>
       </div>
       <div>
         <h4>Email</h4>
+        <a href="mailto:collisionservice@neo.rr.com">
         <img src={Mail}/>
-        <p><a href="mailto:collisionservice@neo.rr.com">collisionservice@neo.rr.com</a></p>
+        <p>collisionservice@neo.rr.com</p></a>
       </div>
       <div>
       <h4>Visit Us </h4>

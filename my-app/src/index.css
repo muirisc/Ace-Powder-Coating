@@ -113,7 +113,12 @@ padding: 0rem;
        -1px 1px 0 #000,
         1px 1px 0 #000;
 }
-
+.banner .bannerTitle{
+grid-row-start: 2;
+grid-row-end: 2;
+grid-column-start: 2;
+grid-column-end: 3;
+}
 .bannerButton{
   background-color: #da6c1a;
   width: 15rem;
@@ -126,10 +131,18 @@ padding: 0rem;
   color: #241e1f;
 }
 
+.banner button{
+  grid-row-start: 4;
+  grid-row-end: 5;
+ grid-column-start: 2;
+ grid-column-end: 3;
+}
+
 .bannerButton:hover{
   background-color: #241e1f;
   border-color: #241e1f;
   color: #da6c1a;
+  border: 2px solid #da6c1a;
 }
 
 
@@ -330,6 +343,10 @@ color: #F9E6B7;
   margin-top: 0rem;
 }
 
+.contactDiv div:hover h4, .contactDiv div:hover p, .contactDiv:hover a{
+  color: #da6c1a;
+}
+
 .contactDiv h4{
   font-size: 32px;
   line-height: 40px;
@@ -348,6 +365,10 @@ color: #F9E6B7;
   align-content: center;
   margin: auto;
   margin-top: .8rem;
+  color: #F9E6B7;
+
+
+
 }
 .contactDiv div{
   border-radius: .5rem;
@@ -358,6 +379,7 @@ color: #F9E6B7;
 .contactDiv a{
   text-decoration: none;
   color: #F9E6B7;
+
 }
 /* .contactDiv div:last-of-type{
 

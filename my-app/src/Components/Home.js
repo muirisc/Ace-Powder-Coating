@@ -9,6 +9,7 @@ function Home(){
       <div>
       </div>
       <div className="bannerBlock">
+        {/* <h3 className="titleBanner">ACE POWDER COATING</h3> */}
       <h3> Akron's Powder Coating Experts since 2012</h3>
       </div>
       <div>
