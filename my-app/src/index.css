@@ -343,8 +343,11 @@ color: #F9E6B7;
   margin-top: 0rem;
 }
 
-.contactDiv div:hover h4, .contactDiv div:hover p, .contactDiv:hover a{
+.contactDiv div:hover h4, .contactDiv div:hover p, .contactDiv div:hover a{
   color: #da6c1a;
+  /* background-color: #F9E6B7; */
+
+;
 }
 
 .contactDiv h4{
